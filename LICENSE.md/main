@@ -84,9 +84,16 @@ int main()
 			}
 		} while (numero2 > 127 || numero2 < -127);
 
-		for(k=0; k<=numero2, k++){
-			resultado = numero1 + numero1;
+		if (numero1 == 0 || numero2 == 0){
+			resultado = 0;
+		} 
+		else{
+			for(k=0; k<numero2, k++){
+			numero1 = numero1 + numero1;
+			}
+		resultado = numero1;
 		}
+		
 
 		if (resultado > 127 || resultado < -127) {
 			printf("Ocorreu overflow do resultado\n");
