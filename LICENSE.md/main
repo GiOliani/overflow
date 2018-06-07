@@ -88,7 +88,7 @@ int main()
 			resultado = 0;
 		} 
 		else{
-			for(k=0; k<numero2, k++){
+			for(k=1; k<numero2, k++){
 			numero1 = numero1 + numero1;
 			}
 		resultado = numero1;
